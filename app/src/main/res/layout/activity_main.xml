@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APP LISTA DE COMPRAS SEMINARIO"
+        android:textSize="20sp"
+        android:textColor="@color/primaryColor"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+   <EditText
+        android:id="@+id/taskInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el nombre del producto"
+        android:drawableEnd="@drawable/ic_product_name"
+        android:textColor="@color/textPrimaryColor"
+        android:backgroundTint="@color/secondaryColor"/>/> <!-- Agrega aquí tu icono -->
+
+    <EditText
+        android:id="@+id/priceInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el precio del producto"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp"
+        android:drawableEnd="@drawable/ic_product_price"
+        android:textColor="@color/textPrimaryColor"
+        android:backgroundTint="@color/secondaryColor"/> <!-- Agrega aquí tu icono -->
+
+    <!-- Campo de búsqueda -->
+    <EditText
+        android:id="@+id/searchInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Buscar producto..."
+        android:layout_marginTop="8dp"
+        android:drawableEnd="@drawable/ic_search" /> <!-- Agrega aquí tu icono -->
+
+    <!-- Menú desplegable para ordenar -->
+    <Spinner
+        android:id="@+id/sortSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <!-- seleccionar una categoría cuando agregue un producto-->
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:entries="@array/categories" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Producto"
+        android:layout_marginTop="8dp"
+        android:drawableEnd="@drawable/ic_add_product" /> <!-- Agrega aquí tu icono -->
+
+    <ListView
+        android:id="@+id/taskList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/totalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total: $0"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

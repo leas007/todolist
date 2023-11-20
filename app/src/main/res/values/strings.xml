@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">todolist</string>
+    <string name="delete_button_label">Eliminar</string>
+    <string name="total_price">Total: $%1$s</string>
+    <string name="product_name_hint">Nombre del producto</string>
+    <string name="product_price_hint">Precio</string>
+    <string name="cancel_button_text">Cancelar</string>
+    <string name="save_button_text">Guardar</string>
+    <string name="delete_button_text">Eliminar</string>
+    <string name="edit_product_name_hint">Nombre del producto</string>
+    <string name="edit_product_price_hint">Precio</string>
+    <string name="edit_product_discount_hint">Descuento (en %)</string>
+    <string name="edit_product_quantity_hint">Cantidad</string>
+    <string name="cantidad_text">Cantidad: %d</string>
+    <string name="descuento_text">Descuento: %.2f%%</string>
+    <string name="input_warning">Ingrese un producto y su precio</string>
+    <string name="total_price_format">Total: $%.2f</string>
+
+    <string-array name="sort_options">
+        <item>Ordenar por nombre (A-Z)</item>
+        <item>Ordenar por nombre (Z-A)</item>
+        <item>Ordenar por precio (ascendente)</item>
+        <item>Ordenar por precio (descendente)</item>
+        <!-- Puedes agregar más opciones si lo deseas -->
+    </string-array>
+
+    <string name="category_prompt">Selecciona una categoría</string>
+
+    <string name="add_product">Añadir producto</string>
+
+    <string name="search_hint">Buscar producto...</string>
+
+    <string name="sort">Ordenar</string>
+
+
+
+
+
+</resources>
