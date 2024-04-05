@@ -1,5 +1,5 @@
 # ToDoList - Gestión de Productos
-##Seminario de Actualizacion UNLaR
+TRABAJO PRACTICO
 
 ## Descripción
 Este proyecto es una aplicación Android para la gestión de productos. Permite a los usuarios agregar, editar, eliminar y visualizar productos, así como filtrarlos por categorías.
