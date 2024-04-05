@@ -36,5 +36,5 @@ Las contribuciones son siempre bienvenidas. Si tienes una sugerencia para mejora
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Contacto
-Si tienes alguna pregunta o comentario, no dudes en contactarme a través de [leandroldpm2021@gmail.com](mailto:leandroldpm2021@gmail.com).
+Si tienes alguna pregunta o comentario, no dudes en contactarme.
 
